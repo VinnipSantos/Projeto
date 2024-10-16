@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/style/nav.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="/style/cards.css">
+    <link rel="stylesheet" href="/style/carousel.css">
+    <link rel="stylesheet" href="/style/timer.css">
+    <link rel="stylesheet" href="/style/footer.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#"><img
+                    src="https://aopavix.com.br/wp-content/uploads/2023/10/64df8362fbe9e6a17ca7371c_HORIZONTAL.png"
+                    alt="" width="150px" class="logo"></a>
+
+            <div id="mobile-menu">
+                <div clas="line1"></div>
+                <div clas="line2"></div>
+                <div clas="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="#">inicio</a></li>
+                <li><a href="/sobre.html">sobre</a></li>
+                <li><a href="/atrativos.html">Eventos</a></li>
+                <li><a href="/forms.html"><i class="fa-solid fa-user"></i></li></a>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div id="carousel">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="/img/comemoração1.png" alt="img1">
+            </div>
+            <div class="slide">
+                <img src="/img/comemoração2.png" alt="img2">
+            </div>
+            <div class="slide">
+                <img src="/img/comemoração3.png" alt="img3">
+            </div>
+            <div class="slide">
+                <img src="/img/comemoração4.png" alt="img4">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+
+    <div class="timer-container">
+        <h1>Contagem Regressiva ate o nosso aniversario!!!</h1>
+        <div id="countdown">
+            <div><span id="days"></span> Dias</div>
+            <div><span id="hours"></span> Horas</div>
+            <div><span id="minutes"></span> Minutos</div>
+            <div><span id="seconds"></span> Segundos</div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="container-texto">
+        
+        <div class="card-texto">
+            <p> <h3>O aniversário das Obras Pavonianas ressalta seu compromisso contínuo com a educação, inclusão social e desenvolvimento profissional. 
+                Por meio de cursos de capacitação e assistência social, a instituição, em mais de sete décadas, se tornou referência ao promover uma vida 
+                digna para seus assistidos. Ajudou milhares de pessoas a ingressarem no mercado de trabalho e a desenvolverem suas habilidades sociais e 
+                profissionais, consolidando seu papel na construção de uma sociedade mais justa e inclusiva.</h3></p>
+
+            <p></p>
+        
+
+        </div>
+    </div>
+
+    <div id="space-cards">
+        <div id="slide-container"><i id="left" class="fa-solid fa-chevron-left"></i>
+            <ul class="carrossel">
+
+                <li class="card">
+                    <div class="img"><img src="/img/download.png" alt="" draggable="false"></div>
+                    <h2>Atividades interativas</h2>
+
+                    <a href="/atrativos.html"> <button class="button">Saiba Mais</button></a>
+                    
+                </li>
+                <li class="card">
+                    <div class="img"><img src="/img/download.png" alt="" draggable="false"></div>
+                    <h2>Brindes </h2><br>
+                    <a href="/atrativos.html"> <button class="button">Saiba Mais</button></a>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="/img/download.png" alt="" draggable="false"></div>
+                    <h2>Gastronomia diferenciada</h2>
+                    <a href="/atrativos.html"> <button class="button">Saiba Mais</button></a>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="/img/download.png" alt="" draggable="false"></div>
+                    <h2>Entretenimento ao vivo</h2>
+                    <a href="/atrativos.html"> <button class="button">Saiba Mais</button></a>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="/img/download.png" alt="" draggable="false"></div>
+                    <h2>Fotografia</h2><br>
+                    <a href="/atrativos.html"> <button class="button">Saiba Mais</button></a>
+                </li>
+            </ul><i id="right" class="fa-solid fa-chevron-right"></i>
+        </div>
+    </div>
+
+    <div id="contato-event">
+        <div class="contato">
+            <div class="overlay"></div>
+            <div class="contato-text">
+                <h1>Contati-Nos</h1>
+                <h3>esperamos por voce</h3> <br>
+                <span><i class="fa-solid fa-location-dot"></i>
+                    <h4>R. Dias de Tolêdo, 99 - Coracao do Jesus, <br> Belo Horizonte - MG, 30380-670</h4>
+                </span>
+                <span><i class="fa-solid fa-mobile"></i>
+                    <h4>(31) 9 9607-0706 <br> (31) 9 7218-7272</h4>
+                </span>
+                <span> <i class="fa-solid fa-envelope"></i>
+                    <h4>Conviteaopa@gmail.com <br>
+                    vinnipantos14@gmail.com</h4>
+                </span>
+
+                <a href="/convite.html"> <button id="button">Convite</button></a>
+
+
+            </div>
+
+        
+        </div>
+
+
+
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.421979377885!2d-43.949903299985614!3d-19.948748401495685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6978397b52833%3A0x659dd5e01f9d7f78!2sR.%20Dias%20de%20Tol%C3%AAdo%2C%2099%20-%20Coracao%20de%20Jesus%2C%20Belo%20Horizonte%20-%20MG%2C%2030380-670!5e0!3m2!1spt-BR!2sbr!4v1728999369823!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+
+
+    <script src="/js/nav.js"></script>
+    <script src="/js/cards.js"></script>
+    <script src="/js/carousel.js"></script>
+    <script src="/js/timer.js"></script>
+
+    
+    
+        <footer>
+            <div class="social-links">
+
+                <img
+                    src="https://aopavix.com.br/wp-content/uploads/2023/10/64df8362fbe9e6a17ca7371c_HORIZONTAL.png"
+                    alt="" width="150px" class="logo">
+            
+                   <div class="footer-cont"> <p>Entre em contato conosco pelas redes sociais!</p>
+
+                <a href="https://www.instagram.com/obrassociaispavonianas/" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+    
+                
+                <a href="https://wa.me/5531996070706" target="_blank" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+        </footer>
+    
+        
+      
+    
+    </body>
+    </html>
+    
+
+
+
+
+
+</body>
+
+</html>

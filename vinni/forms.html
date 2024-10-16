@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style/forms.css">
+    <link rel="stylesheet" href="/style/nav.css">
+    <title>forms</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#"><img
+                    src="https://aopavix.com.br/wp-content/uploads/2023/10/64df8362fbe9e6a17ca7371c_HORIZONTAL.png"
+                    alt="" width="150px" class="logo"></a>
+
+            <div id="mobile-menu">
+                <div clas="line1"></div>
+                <div clas="line2"></div>
+                <div clas="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="/home.html">inicio</a></li>
+                <li><a href="/sobre.html">sobre</a></li>
+                <li><a href="/atrativos.html">Eventos</a></li>
+                <li><a href="/forms.html"><i class="fa-solid fa-user"></i></li></a>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+                <i id=mode_icon class="fa-solid fa-moon"></i>
+
+            </div>
+            <div id="social_midia">
+                
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Name
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="input-box">
+                            <label for="email">
+                                E-mail
+                                <div class="input-field">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <input type="email" id="email" name="email">
+                                </div>
+                                <div class="input-box">
+                                    <label for="password">
+                                        Password
+                                        <div class="input-field">
+                                            <i class="fa-solid fa-key"></i>
+                                            <input type="password" id="password" name="password">
+                                        </div>
+
+                                    </label>
+                                    <div id="forgot_password">
+                                        <a href="#">
+                                            Forgot your password
+                                        </a>
+                                    </div>
+
+
+                                </div>
+
+                                <a href="/home.html"><button type="submit" id="login_button"><a href="/home.html">
+                                    Login</a>
+                                </button>
+                        </div>
+
+                        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+                       
+                        <script src="js/script.js"></script>
+                        <script src="/js/nav.js"></script>
+                        <script src="/js/auth.js"></script>
+
+        </form>
+    </main>
+</body>
+
+</html>

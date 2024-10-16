@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite para Evento</title>
+    <link rel="stylesheet" href="/style/convite.css">
+    <link rel="stylesheet" href="/style/nav.css">
+    
+          
+</head>
+<body>
+
+
+<div class="form-container">
+    <h2>Convite para Evento</h2>
+    <form id="invite-form">
+        <label for="name">Nome </label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email </label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="tel">Tell </label>
+        <input type="tel" id="tel" name="tel" required>
+
+        <label for="attendance">Confirmação de Presença:</label>
+        <select id="attendance" name="attendance" required>
+            <option value="">Selecione uma opção</option>
+            <option value="yes">Sim, confirmo a presença</option>
+            <option value="no">Não poderei comparecer</option>
+        </select>
+
+        <a href="/home.html"></a><button type="submit" >Enviar Convite</button></a>
+    </form>
+
+    <p class="status-message" id="status-message"></p>
+</div>
+
+<script src="/js/convite.js"></script>
+<script src="/js/nav.js"></script>
+<script src="/js/supabase.js"></script>
+</body>
+</html>
